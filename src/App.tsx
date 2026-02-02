@@ -72,7 +72,7 @@ const App: React.FC = () => {
             className="block w-full bg-[#4CAF8E] hover:bg-[#3E9B7A] text-white py-4 px-5 rounded-xl font-medium text-base shadow-sm hover:shadow transition-all duration-200 flex items-center justify-center"
           >
             <Briefcase className="w-4 h-4 mr-2" />
-            Buat Web/App
+            Portofolio
           </a>
           
           <a
