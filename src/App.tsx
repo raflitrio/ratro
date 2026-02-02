@@ -15,7 +15,7 @@ const App: React.FC = () => {
       img.addEventListener('dragstart', (e) => e.preventDefault());
     });
   }, []);
-  const PortoLink = 'https://diff-proved-comparisons-prague.trycloudflare.com';
+  const PortoLink = 'https://raflitriofansyah.vercel.app';
   const whatsappNumber = "6285728961516";
   const whatsappLinkBuat = `https://wa.me/${whatsappNumber}?text=Halo%20Rafli%2C%20saya%20mau%20buat%20web%2Fapp`;
   const whatsappLinkJoki = `https://wa.me/${whatsappNumber}?text=Halo%20Rafli%2C%20saya%20butuh%20joki%20web%2Fapp`;
