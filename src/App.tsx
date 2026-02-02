@@ -1,4 +1,4 @@
-import { Briefcase, Code, Zap, ShoppingCart, Github, Linkedin, Instagram } from 'lucide-react';
+import { Briefcase, Code, ShoppingCart, Github, Linkedin, Instagram } from 'lucide-react';
 import { useEffect } from 'react';
 
 // Import gambar agar bundler (Vite/webpack) bisa resolve path-nya (opsional tapi disarankan)
@@ -18,7 +18,6 @@ const App: React.FC = () => {
   const PortoLink = 'https://raflitriofansyah.vercel.app';
   const whatsappNumber = "6285728961516";
   const whatsappLinkBuat = `https://wa.me/${whatsappNumber}?text=Halo%20Rafli%2C%20saya%20mau%20buat%20web%2Fapp`;
-  const whatsappLinkJoki = `https://wa.me/${whatsappNumber}?text=Halo%20Rafli%2C%20saya%20butuh%20joki%20web%2Fapp`;
   const buyLink = "https://lynk.id/ratro";
 
   return (
@@ -81,14 +80,6 @@ const App: React.FC = () => {
           >
             <Code className="w-4 h-4 mr-2" />
             Buat Web/App
-          </a>
-
-          <a
-            href={whatsappLinkJoki}
-            className="block w-full bg-[#e89463] hover:bg-[#d47a47] text-white py-4 px-5 rounded-xl font-medium text-base shadow-sm hover:shadow transition-all duration-200 flex items-center justify-center"
-          >
-            <Zap className="w-4 h-4 mr-2" />
-            Joki Web/App
           </a>
 
           <a
