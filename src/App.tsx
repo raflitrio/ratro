@@ -94,7 +94,7 @@ const App: React.FC = () => {
             href={penilaianLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="block w-full bg-[#8f84b8] hover:bg-[#766aa0] text-white py-4 px-5 rounded-xl font-medium text-base shadow-sm hover:shadow transition-all duration-200 flex items-center justify-center"
+            className="block w-full bg-[#f4a261] hover:bg-[#e76f51] text-white py-4 px-5 rounded-xl font-medium text-base shadow-sm hover:shadow transition-all duration-200 flex items-center justify-center"
           >
             Beli Web/App
           </a>
