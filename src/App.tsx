@@ -1,4 +1,4 @@
-import { Briefcase, Code, ShoppingCart, Github, Linkedin, Instagram } from 'lucide-react';
+import { Github, Linkedin, Instagram } from 'lucide-react';
 import { useEffect } from 'react';
 
 // Import gambar agar bundler (Vite/webpack) bisa resolve path-nya (opsional tapi disarankan)
@@ -19,6 +19,7 @@ const App: React.FC = () => {
   const whatsappNumber = "6285728961516";
   const whatsappLinkBuat = `https://wa.me/${whatsappNumber}?text=Halo%20Rafli%2C%20saya%20mau%20buat%20web%2Fapp`;
   const buyLink = "https://lynk.id/ratro";
+  const penilaianLink = "https://docs.google.com/forms/d/e/1FAIpQLSeymgjupzRKxAlRWARgq4LY5MSg9YsCbtVtkZMfPVKQcUBJyg/viewform?usp=publish-editor";
 
   return (
     <div
@@ -70,7 +71,6 @@ const App: React.FC = () => {
             href={PortoLink}
             className="block w-full bg-[#4CAF8E] hover:bg-[#3E9B7A] text-white py-4 px-5 rounded-xl font-medium text-base shadow-sm hover:shadow transition-all duration-200 flex items-center justify-center"
           >
-            <Briefcase className="w-4 h-4 mr-2" />
             Portofolio
           </a>
           
@@ -78,7 +78,6 @@ const App: React.FC = () => {
             href={whatsappLinkBuat}
             className="block w-full bg-[#4a6fa5] hover:bg-[#3d5a80] text-white py-4 px-5 rounded-xl font-medium text-base shadow-sm hover:shadow transition-all duration-200 flex items-center justify-center"
           >
-            <Code className="w-4 h-4 mr-2" />
             Buat Web/App
           </a>
 
@@ -88,7 +87,15 @@ const App: React.FC = () => {
             rel="noopener noreferrer"
             className="block w-full bg-[#8678a5] hover:bg-[#6d5f8c] text-white py-4 px-5 rounded-xl font-medium text-base shadow-sm hover:shadow transition-all duration-200 flex items-center justify-center"
           >
-            <ShoppingCart className="w-4 h-4 mr-2" />
+            Beli Web/App
+          </a>
+
+          <a
+            href={penilaianLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block w-full bg-[#8f84b8] hover:bg-[#766aa0] text-white py-4 px-5 rounded-xl font-medium text-base shadow-sm hover:shadow transition-all duration-200 flex items-center justify-center"
+          >
             Beli Web/App
           </a>
         </div>
