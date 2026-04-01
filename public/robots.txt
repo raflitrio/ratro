@@ -1,0 +1,6 @@
+# Izinkan semua crawler (Google, Bing, dll)
+User-agent: *
+Allow: /
+
+# Lokasi file sitemap (GANTI dengan domain kamu)
+Sitemap: https://ratro.nichesite.org/sitemap.xml

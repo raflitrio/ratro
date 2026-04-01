@@ -50,3 +50,31 @@ img {
 .read-the-docs {
   color: #888;
 }
+
+.snake-bind {
+  stroke-dasharray: 0;
+  animation: bind-snake 4s ease-out forwards;
+}
+
+@keyframes bind-snake {
+  0% {
+    d: path("M 0 130 L 0 130"); /* mulai dari titik tengah kiri */
+    stroke-dasharray: 0;
+  }
+  20% {
+    d: path("M 0 130 C 0 100, 30 70, 70 60");
+    stroke-dasharray: 0;
+  }
+  50% {
+    d: path("M 0 130 C 0 80, 20 50, 70 40 C 120 30, 200 30, 250 40 C 280 50, 320 80, 320 130");
+    stroke-dasharray: 0;
+  }
+  80% {
+    d: path("M 50 40 C 30 40, 20 60, 20 90 C 20 130, 40 150, 70 160 C 100 170, 200 170, 230 160 C 260 150, 280 130, 280 90 C 280 60, 270 40, 250 40 C 220 30, 80 30, 50 40 Z");
+    stroke-dasharray: 0;
+  }
+  100% {
+    d: path("M 50 40 C 30 40, 20 60, 20 90 C 20 130, 40 150, 70 160 C 100 170, 200 170, 230 160 C 260 150, 280 130, 280 90 C 280 60, 270 40, 250 40 C 220 30, 80 30, 50 40 Z");
+    stroke-dasharray: 0;
+  }
+}
